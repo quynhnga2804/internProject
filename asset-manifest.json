@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/internProject/static/css/main.32f5c3ad.css",
+    "main.js": "/internProject/static/js/main.9dab164e.js",
+    "static/js/453.727036f2.chunk.js": "/internProject/static/js/453.727036f2.chunk.js",
+    "static/media/pic1.png": "/internProject/static/media/pic1.b9a6f9a3c061e90f576f.png",
+    "static/media/icon2.png": "/internProject/static/media/icon2.6bc3f196592d54a82ba8.png",
+    "static/media/icon1.png": "/internProject/static/media/icon1.041ad2425c8fbc1479b2.png",
+    "static/media/icon4.png": "/internProject/static/media/icon4.4745ac1d8b5d4ae70214.png",
+    "static/media/icon3.png": "/internProject/static/media/icon3.ba1bc02fe2a7ee25cedb.png",
+    "static/media/bgd3.png": "/internProject/static/media/bgd3.c0bd977d3cac00f219c8.png",
+    "static/media/bgd4.png": "/internProject/static/media/bgd4.dbe21f04d0339faf140a.png",
+    "static/media/bgd2.png": "/internProject/static/media/bgd2.8dffa2a1e480833757eb.png",
+    "static/media/bgd1.png": "/internProject/static/media/bgd1.cec411314590bc3b4817.png",
+    "index.html": "/internProject/index.html",
+    "main.32f5c3ad.css.map": "/internProject/static/css/main.32f5c3ad.css.map",
+    "main.9dab164e.js.map": "/internProject/static/js/main.9dab164e.js.map",
+    "453.727036f2.chunk.js.map": "/internProject/static/js/453.727036f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32f5c3ad.css",
+    "static/js/main.9dab164e.js"
+  ]
+}
