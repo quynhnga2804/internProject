@@ -3,21 +3,24 @@ import { useNavigate } from 'react-router-dom'
 import styles from './LoginPage.module.scss'
 import { login } from '../services/api'
 import logo from '../assets/images/logo.png'
+import { useAuth } from '../contexts/AuthContext'
 
 const LoginPage = () => {
+  const { login: setContextLogin } = useAuth();
   const [username, setUsername] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      await login(username);
-      navigate('/profile');
-    } catch (err: any) {
-      setError(err.message);
-    }
-  };
+  e.preventDefault();
+  try {
+    const res = await login(username);
+    setContextLogin(res.accessToken, res.username);
+    navigate('/');
+  } catch (err: any) {
+    setError(err.message);
+  }
+};
 
   return (
     <>
