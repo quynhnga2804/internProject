@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 230px;
+  background-color: #fff;
+}
+
+h1 {
+  max-width: 70%;
+  font-size: 50px;
+  color: rgb(0, 0, 78);
+  line-height: 1.1;
+}
+
+p {
+  max-width: 36%;
+  font-size: 12px;
+  color: rgb(76, 76, 76);
+  line-height: 1.6;
+}
+
+.content {
+  height: 370px;
+  background-image: url('../assets/images/pic1.png');
+  background-size: 450px 240px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.getStarted {
+  background-color: #925ff0;
+  color: white;
+  border: none;
+  margin-top: 18px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.features {
+  padding: 30px 230px 60px 230px;
+  background: #fff;
+  text-align: center;
+  color: rgb(0, 0, 78);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 320px;
+  height: 210px;
+  padding: 30px 30px 30px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+}
+
+img {
+  float: left;
+}
+
+.content {
+  height: 97px;
+  font-size: 10px;
+  margin-top: 18px;
+  max-width: 137px;
+  float: right;
+  text-align: left;
+  color:rgb(76, 76, 76);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
