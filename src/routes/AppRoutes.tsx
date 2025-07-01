@@ -12,7 +12,7 @@ const PrivateRoute = ({ children }: { children: React.ReactElement }) => {
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/auth/login" element={<LoginPage />} />
